@@ -12,7 +12,6 @@
     width: 10px;
     height: 10px; 
     border-radius: 50%;
-    border: 1px solid #3a45da; 
     box-shadow: 0px 2px 3px #136a85;
     -moz-animation-name: jump;
     -moz-animation-duration: 1s;
@@ -72,20 +71,15 @@
 }
     
 @-webkit-keyframes jump {
-    0% {border: 1px solid #3f7ed1;}
     50% {
       -webkit-transform:translateY(-30px);
     }
     75% {
-      border: 1px solid rgb(158, 200, 255); 
       box-shadow: 0px 6px 3px #25d4e0;
     }
-    100% {border: 1px solid #3f7ed1;}
 }
     
 @-moz-keyframes jump {
-    0% {border: 1px solid #3f7ed1;}
     50% {-moz-transform:translateY(-30px);}
-    75% {border: 1px solid rgb(158, 200, 255); box-shadow: 0px 6px 3px #25d4e0;}
-    100% {border: 1px solid #3f7ed1;}
+    75% {box-shadow: 0px 6px 3px #25d4e0;}
 }
